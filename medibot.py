@@ -61,12 +61,12 @@ if user_input:
 
 with st.sidebar:
     st.header("💡 Quick Help")
-
     st.write("**Try asking:**")
-    st.write("- How do I control cravings?")
-    st.write("- What happens after quitting smoking?")
-    st.write("- How long does withdrawal last?")
-    st.write("- Tips to stop smoking urges")
+    st.write("- How can I manage drug cravings safely?")
+    st.write("- How long does recovery from narcotics dependence take?")
+    st.write("- What are healthy ways to cope with urges to use?")
+    st.write("- When should someone seek medical help ?")
+
 
     st.divider()
 
