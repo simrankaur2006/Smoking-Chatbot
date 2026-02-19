@@ -70,8 +70,8 @@ with st.sidebar:
 
     st.divider()
 
-    st.write("📞 **India Quitline:**")
-    st.write("1800-11-2356")
+    st.write("📞 **India Helpline:**")
+    st.write("1933 (toll-free)")
 
     st.divider()
     st.caption("Stay strong — every step counts.")
