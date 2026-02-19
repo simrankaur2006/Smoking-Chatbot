@@ -3,18 +3,18 @@ from connect_memory_with_llm import build_qa_chain
 
 # PAGE CONFIG 
 st.set_page_config(
-    page_title="Quit Smoking Support Bot",
+    page_title="Beyond Addiction Support Bot",
     page_icon="🚭",
     layout="centered"
 )
 
 # TITLE 
-st.title("🚭 Quit Smoking Support Bot")
-st.caption("Counselling & guidance to help you quit smoking")
+st.title("🚭 Beyond Addiction Support Bot")
+st.caption("Counselling & guidance to help you quit drug abuse")
 
 #  DISCLAIMER 
 st.info(
-    "This chatbot provides guidance and emotional support for quitting smoking. "
+    "This chatbot provides guidance and emotional support for quitting substance abuse. "
     "It does not provide medical advice. For medical concerns, consult a healthcare professional."
 )
 
@@ -35,7 +35,7 @@ for msg in st.session_state.messages:
         st.markdown(msg["content"])
 
 #USER INPUT 
-user_input = st.chat_input("Ask about quitting smoking...")
+user_input = st.chat_input("Ask about quitting smoking, drug abuse...")
 
 if user_input:
 
